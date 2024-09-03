@@ -1,13 +1,13 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { readingTime } from "@lib/utils";
+// import { readingTime } from "@lib/utils";
 
 type Props = {
   entry: CollectionEntry<"projects">;
 };
 
 const { entry } = Astro.props;
-const { collection, data, body } = entry;
+const { collection, data } = entry;
 const { title, summary } = data;
 
 const demoUrl = collection === "projects" ? data.demoUrl : null;
