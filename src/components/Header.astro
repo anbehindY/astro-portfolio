@@ -4,7 +4,8 @@ import { cn } from "@lib/utils";
 const { pathname } = Astro.url;
 const subpath = pathname.match(/[^/]+/g);
 import Container from "@components/Container.astro";
-import logo from "public/logo.png";
+import logoDark from "public/logo-white.webp";
+import logo from "public/logo-black.webp";
 ---
 
 <header id="header" class="fixed top-0 w-full h-16 z-50">
@@ -17,18 +18,30 @@ import logo from "public/logo.png";
           href="/"
           class="flex gap-1 text-current hover:text-black dark:hover:text-white transition-colors duration-300 ease-in-out"
         >
-          <!-- <svg class="size-6 fill-current">
-            <use href="/brand.svg#brand"></use>
-          </svg> -->
-          <div>
+          <div class="ml-8">
             <!-- {SITE.TITLE} -->
-            <img
+            <span
+              class="font-bold text-2xl text-gray-900 dark:text-gray-100 uppercase tracking-wide mr-[2px]"
+              >Alfie</span
+            >
+            <span
+              class="font-light text-2xl text-gray-700 dark:text-gray-300 uppercase tracking-tight"
+              >Yang</span
+            >
+            <!-- <img
               src={logo.src}
               alt="something"
               width="120"
               height="80"
-              class="object-fill"
+              class="object-fill dark:hidden"
             />
+            <img
+              src={logoDark.src}
+              alt="something"
+              width="120"
+              height="80"
+              class="object-fill hidden dark:block"
+            /> -->
           </div>
         </a>
       </div>
@@ -45,7 +58,7 @@ import logo from "public/logo.png";
                   "transition-colors duration-300 ease-in-out",
                   pathname === LINK.HREF || "/" + subpath?.[0] === LINK.HREF
                     ? "bg-black dark:bg-white text-white dark:text-black"
-                    : "hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white",
+                    : "hover:bg-black/5 dark:hover:bg-white/20 hover:text-black dark:hover:text-white"
                 )}
               >
                 {LINK.TEXT}
@@ -68,7 +81,7 @@ import logo from "public/logo.png";
             "transition-colors duration-300 ease-in-out",
             pathname === "/search" || "/" + subpath?.[0] === "/search"
               ? "pointer-events-none bg-black dark:bg-white text-white dark:text-black"
-              : "",
+              : ""
           )}
         >
           <svg class="size-full">
@@ -76,7 +89,7 @@ import logo from "public/logo.png";
           </svg>
         </a>
 
-        <a
+        <!-- <a
           href="/rss.xml"
           target="_blank"
           aria-label={`Rss feed for ${SITE.TITLE}`}
@@ -92,7 +105,7 @@ import logo from "public/logo.png";
           <svg class="size-full">
             <use href="/ui.svg#rss"></use>
           </svg>
-        </a>
+        </a> -->
 
         <button
           id="header-theme-button"
@@ -103,7 +116,7 @@ import logo from "public/logo.png";
             "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
             "stroke-current hover:stroke-black hover:dark:stroke-white",
             "border border-black/10 dark:border-white/25",
-            "transition-colors duration-300 ease-in-out",
+            "transition-colors duration-300 ease-in-out"
           )}
         >
           <svg class="size-full block dark:hidden">
@@ -123,7 +136,7 @@ import logo from "public/logo.png";
             "bg-transparent hover:bg-black/5 dark:hover:bg-white/20",
             "stroke-current hover:stroke-black hover:dark:stroke-white",
             "border border-black/10 dark:border-white/25",
-            "transition-colors duration-300 ease-in-out",
+            "transition-colors duration-300 ease-in-out"
           )}
         >
           <svg id="drawer-open" class="size-full">
