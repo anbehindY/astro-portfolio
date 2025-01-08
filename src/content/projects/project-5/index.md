@@ -1,15 +1,15 @@
 ---
-title: "Food Menu"
-summary: "Food Menu is a list of food items available from a restaurant. This is powered by GraphQL API, Ruby on Rails backend."
+title: "Math Magicians"
+summary: "
+Math Magicians is a single page application built with React. It can be used to deal with simple calculations and to display a random quote."
 # date: "Mar 16 2022"
 draft: false
 tags:
-  - Typescript
-  - Vite
-  - GraphQL
-  - Ruby on Rails
-demoUrl: https://grain-menu.vercel.app/
-repoUrl: https://github.com/anbehindY/grain-menu
+    - JavaScript
+    - React
+    - CSS
+demoUrl: https://math-magicians-ua6d.onrender.com
+repoUrl: https://github.com/anbehindY/math-magicians
 ---
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae ultricies leo integer malesuada nunc vel risus commodo viverra. Adipiscing enim eu turpis egestas pretium. Euismod elementum nisi quis eleifend quam adipiscing. In hac habitasse platea dictumst vestibulum. Sagittis purus sit amet volutpat. Netus et malesuada fames ac turpis egestas. Eget magna fermentum iaculis eu non diam phasellus vestibulum lorem. Varius sit amet mattis vulputate enim. Habitasse platea dictumst quisque sagittis. Integer quis auctor elit sed vulputate mi. Dictumst quisque sagittis purus sit amet. -->
