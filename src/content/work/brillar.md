@@ -2,7 +2,7 @@
 company: "Brillar - Digital Transformation Solutions"
 role: "Full Stack Engineer"
 link: "https://brillar.io"
-dateStart: "20/01/2025"
+dateStart: "01/20/2025"
 dateEnd: "NOW"
 ---
 
