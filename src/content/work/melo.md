@@ -1,12 +1,12 @@
 ---
 company: "Melo Music"
 role: "Freelance Web Developer"
-link: "https://melomm.com"
+link: "https://melo-music-beta.vercel.app/"
 dateStart: "11/11/2023"
 dateEnd: "03/01/2024"
 ---
 
-Sit amet consectetur adipisicing elit. Iure illo neque tempora, voluptatem est quaerat voluptas praesentium ipsa dolorem dignissimos nulla ratione distinctio quae maiores eligendi nostrum? Quibusdam, debitis voluptatum, lorem ipsum dolor.
+Melo Music is a landing page for dynamic music streaming platform that offers intuitive user interface and fully responsive. It provides users with an immersive and personalized listening experience, allowing them to discover new music, create playlists, and enjoy their favorite tracks anytime, anywhere.
 
 - Developed a landing page for Melo Music Myanmar within a one-month time frame, ensuring timely delivery and high-quality standards.
 

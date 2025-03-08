@@ -3,7 +3,7 @@ company: "Dinger - Innovating Payment Infrastructure"
 role: "Front End Engineer"
 link: "https://dinger.asia"
 dateStart: "10/20/2023"
-dateEnd: "NOW"
+dateEnd: "10/13/2024"
 ---
 
 At Dinger, I contributed to enabling businesses to accept digital payments with or without technical resources. I worked on enhancing the payment platform to support multiple payment methods, ensuring robust security measures, and providing user-friendly integration solutions. My role involved developing and optimizing features that streamline the digital payment process, making it accessible and efficient for businesses of all sizes.
