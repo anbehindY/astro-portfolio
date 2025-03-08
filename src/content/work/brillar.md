@@ -6,9 +6,9 @@ dateStart: "01/20/2025"
 dateEnd: "NOW"
 ---
 
-Brillar is a digital transformation solution provider headquartered in Singapore, with additional offices in Myanmar and Malaysia. It specializes
+Brillar is a digital transformation solution provider headquartered in Singapore, with additional offices in Myanmar and Malaysia. It specializes in providing innovative technology solutions to help businesses achieve their digital transformation goals.
 
-- Developing AI-driven features and backend services for **Atenxion**, using MERN stack and python levearing microservices architecture.
+- Developing AI-driven features and backend services for [**Atenxion**](https://www.atenxion.ai/), using MERN stack and python levearing microservices architecture.
 
 - Implementing **scalable and secure AI integrations** to enhance business automation and user experience.
 

@@ -8,7 +8,7 @@ dateEnd: "10/13/2024"
 
 At Dinger, I contributed to enabling businesses to accept digital payments with or without technical resources. I worked on enhancing the payment platform to support multiple payment methods, ensuring robust security measures, and providing user-friendly integration solutions. My role involved developing and optimizing features that streamline the digital payment process, making it accessible and efficient for businesses of all sizes.
 
-- Contributed to the creation of an admin portal for MTB Bank's wallet app, improving administrative efficiency and user management.
+- Contributed to the implementation of **an admin portal for MTB Bank's wallet app**, improving administrative efficiency and user management.
 
 - Delivered exceptional performance and commitment to projects, consistently meeting tight deadlines and providing regular updates.
 
