@@ -1,11 +1,11 @@
 ---
-import { getCollection } from "astro:content";
-import PageLayout from "@layouts/PageLayout.astro";
 import ArrowCard from "@components/ArrowCard";
-import StackCard from "@components/StackCard.astro";
-import { SITE, SOCIALS } from "@consts";
-import TwinklingStars from "@components/TwinklingStars.astro";
 import MeteorShower from "@components/MeteorShower.astro";
+import StackCard from "@components/StackCard.astro";
+import TwinklingStars from "@components/TwinklingStars.astro";
+import { SITE, SOCIALS } from "@consts";
+import PageLayout from "@layouts/PageLayout.astro";
+import { getCollection } from "astro:content";
 import profileImage from "public/profile.png";
 
 // const posts = (await getCollection("blog"))
@@ -226,9 +226,10 @@ const stack = [
             I currently work as a software engineer at <a
               class="text-yellow-300 no-underline"
               href="https://dinger.asia"
-              target="_blank">Dinger</a
-            >, closely collaborating with UI/UX designers and backend engineers
-            to deliver high quality web applications.
+              target="_blank">Brillar</a
+            >, closely collaborating with tech researchers, automation
+            engineers, and system engineers to deliver high quality web
+            applications.
           </p>
         </article>
       </section>
