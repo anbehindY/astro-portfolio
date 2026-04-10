@@ -7,10 +7,15 @@ import { WORK } from "@consts";
 
 const collection = await getCollection("work");
 
-collection.sort(
-  (a, b) =>
-    new Date(b.data.dateEnd).getTime() - new Date(a.data.dateEnd).getTime()
-);
+const endTime = (value: Date | string) => {
+  if (typeof value === "string") {
+    const parsed = new Date(value).getTime();
+    return Number.isNaN(parsed) ? Date.now() : parsed;
+  }
+  return value.getTime();
+};
+
+collection.sort((a, b) => endTime(b.data.dateEnd) - endTime(a.data.dateEnd));
 
 const work = await Promise.all(
   collection.map(async (item) => {

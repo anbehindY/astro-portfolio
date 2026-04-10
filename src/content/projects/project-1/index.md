@@ -1,15 +1,14 @@
 ---
-title: "iCONIC"
-summary: "An e-commerce website for a variety of apple products and accessories"
-# date: "Mar 31 2024"
+title: "Iconic"
+summary: "An e-commerce website for a variety of Apple products and accessories, built with Next.js, Redux, Nest.js and Tailwind CSS."
 draft: false
 tags:
   - Typescript
-  - Tailwind
-  - React
   - Next.js
-  - Daisy UI
+  - React
+  - Redux
   - Nest.js
+  - Tailwind
 demoUrl: https://iconic-frontend.vercel.app
 repoUrl: https://github.com/anbehindY/Iconic-frontend
 ---

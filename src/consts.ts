@@ -3,9 +3,9 @@ import type { Site, Page, Links, Socials } from "@types";
 // Global
 export const SITE: Site = {
   TITLE:
-    "Yan Min Thwin | Alfie Yang | Full-Stack Engineer | Front-end Engineer | Ruby on Rails Engineer",
+    "Yan Min Thwin | Full-Stack Engineer | Next.js, NestJS & AWS",
   DESCRIPTION:
-    "Explore Yan Min Thwin's portfolio showcasing projects built with Next.js, Ruby on Rails, and Astro. Discover innovative web designs and robust backend solutions.",
+    "Problem-driven Full-Stack Engineer specialized in Next.js, NestJS, and AWS. Explore Yan Min Thwin's portfolio of scalable web systems, AI-integrated applications, and cloud infrastructure built on ECS Fargate, RDS, and Terraform.",
   AUTHOR: "Yan Min Thwin",
 };
 

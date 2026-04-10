@@ -1,19 +1,15 @@
 ---
 company: "Brillar - Digital Transformation Solutions"
-role: "Full Stack Engineer"
+role: "Full-Stack Engineer"
 link: "https://brillar.io"
-dateStart: "01/20/2025"
-dateEnd: "NOW"
+dateStart: "01/01/2025"
+dateEnd: "04/01/2025"
 ---
 
 Brillar is a digital transformation solution provider headquartered in Singapore, with additional offices in Myanmar and Malaysia. It specializes in providing innovative technology solutions to help businesses achieve their digital transformation goals.
 
-- Developing AI-driven features and backend services for [**Atenxion**](https://www.atenxion.ai/), using MERN stack and python levearing microservices architecture.
+- **Engineered AI-integrated applications** using the **MERN stack**, implementing real-time model inference and complex data processing pipelines.
 
-- Implementing **scalable and secure AI integrations** to enhance business automation and user experience.
+- **Developed scalable API architectures** to bridge high-performance frontends within an event-driven system.
 
-- Collaborating with tech researchers, UI/UX designers, and system engineers to refine model performance and application responsiveness.
-
-- Enhancing the **frontend** for seamless user interaction and **backend** for efficient data processing.
-
-- Contributing to **API development, security improvements, and cloud deployment** strategies.
+- **Collaborated with AI teams** to deploy, optimize, and scale machine learning models in production environments.
